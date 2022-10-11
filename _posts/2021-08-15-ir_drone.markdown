@@ -1,0 +1,24 @@
+---
+layout: post
+title: Custom, Heavy-Lift IR Drone
+#date: 2021-11-15 00:00:01 +0300
+date: 2021-08-15 00:00:001 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+thumbnail: ir_lava_field.webp # Add image post (optional)
+image: ir_lava_field.webp # Add image post (optional)
+tags: [whycode] # add tag
+---
+
+![IR Drone in Flight]({{site.baseurl}}/assets/images/ir_drone_in_flight.jpg)
+
+As a summer project with Christopher Hamilton, Baldur Björnsson and I assembled a heavy-lift drone with an infrared camera for geological surveys over the lava fields at the erupting volcano in Fagradalsfjall.
+The drone has a 1.3m span and can carry up to 25kg.
+[A document detailing the project is available here.](https://drive.google.com/file/d/1fzUhJ0J-uqhVsV7xcRsQCw3uYpgGBdwt/view?usp=sharing)
+The FLIR A65 outputs raw IR video that can be used to determine the temperature of the lava it is looking at.
+It is a fairly heavy camera, so we have mounted it on a large gimbal.
+The drone flew multiple test flights and multiple short, survey flights over the lava field, giving output images like at the top of this page.
+Video of the BBC Click program that documented the survey and video of the IR footage itself can be found below.
+
+[![Demo Screenshot]({{site.baseurl}}/assets/images/ir_drone_video_screenshot.png)](https://youtu.be/6SIgFPhhRPE?t=1189)
+
+[![Demo Screenshot]({{site.baseurl}}/assets/images/ir_video_screenshot.png)](https://vimeo.com/580302507)

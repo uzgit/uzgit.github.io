@@ -9,15 +9,21 @@
     </span>
   {% endif %}
   <a href="{{ post.url | relative_url }}">
-    {% if post.featured-img %}
+    {% if post.thumbnail %}
       <figure class="post-card__thumb">
-        <img
+        <!--img
           src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_placehold.jpg"
           data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb@2x.jpg 2x"
           class="lazyload blur"
           alt="{{post.title}}"
+        /-->
+        <img
+          src="{{ site.url }}{{ site.baseurl }}/assets/images/{{post.thumbnail}}"
+          data-srcset="{{ site.url }}{{ site.baseurl }}/assets/images/{{post.image}}, {{ site.url }}{{ site.baseurl }}/assets/images/{{post.image}}"
+          class="lazyload blur"
+          alt="{{post.title}}"
         />
-        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.jpg" alt="{{ post.title }}"></noscript>
+        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{post.image}}" alt="{{ post.title }}"></noscript>
       </figure>
     {% else %}
       <figure class="post-card__thumb">
