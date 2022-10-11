@@ -23,4 +23,4 @@ Our initial experiments show a runtime detection rate of about 15 Hz.
 However, it does not actually result in a speedup on a Raspberry Pi 4, probably because it has enough RAM and processor power to handle the 48h12 system.
 The figure below shows the speed comparisons of the April Tag systems (plus some other systems that I will address in another post/publication).
 
-![Speed Plot]({{site.baseurl}}/assets/images/violin_plot_speed_five_member.png)
+![Speed Plot]({{ site.url }}{{ site.baseurl }}/assets/images/violin_plot_speed_five_member.png)

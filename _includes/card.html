@@ -22,8 +22,9 @@
           data-srcset="{{ site.url }}{{ site.baseurl }}/assets/images/{{post.image}}, {{ site.url }}{{ site.baseurl }}/assets/images/{{post.image}}"
           class="lazyload blur"
           alt="{{post.title}}"
+	  style="object-fit:cover"
         />
-        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{post.image}}" alt="{{ post.title }}"></noscript>
+        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{post.image}}" alt="{{ post.title }}" style="object-fit:cover"></noscript>
       </figure>
     {% else %}
       <figure class="post-card__thumb">

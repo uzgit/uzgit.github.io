@@ -26,7 +26,7 @@ We have made [an app](https://github.com/uzgit/Android-VideoStreamDecodingSample
 The video decoding sample provides the means for sending individual frames to an external board (Raspberry Pi 4) for processing, and the virtual sticks example gives a way of programmatically controlling the drone.
 The (necessarily horrible) architecture of the system is shown below.
 
-![Demo Screenshot]({{site.baseurl}}/assets/images/spark_architecture.drawio.png)
+![Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/spark_architecture.drawio.png)
 
 The DJI Spark and its controller talk to each other with no outside intervention from us.
 Using an Ethernet over USB connection, our Android app decodes frames from the video stream, compresses them, and sends them the companion board (Raspberry Pi 4) over a Wifi connection from the Raspberry Pi 4. (The Raspberry Pi is set up as a WiFi access point.)
@@ -58,12 +58,12 @@ The system achieved a video processing rate of only about 6-7 Hz, bottlenecked b
 It is subject to orientation ambiguity, though less than expected.
 This can be seen in the "flickering" of the control inputs on the app, and sometimes in corresponding, quick, erratic behavior of the drone. 
 
-[![April Tag 24h10 Demo Screenshot]({{site.baseurl}}/assets/img/demo_screenshot.png)](https://vimeo.com/664863992)
+[![April Tag 24h10 Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/demo_screenshot.png)](https://vimeo.com/664863992)
 
 Below is a similar demo using April Tag 48h12:
 
-[![April Tag 48h12 Demo Screenshot]({{site.baseurl}}/assets/img/apriltag_48h12_demo_screenshot.png)](https://vimeo.com/644394605)
+[![April Tag 48h12 Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/apriltag_48h12_demo_screenshot.png)](https://vimeo.com/644394605)
 
 Finally, a demo using WhyCode:
 
-[![WhyCode Demo Screenshot]({{site.baseurl}}/assets/img/whycode_demo_screenshot.png)](https://vimeo.com/688389732)
+[![WhyCode Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/whycode_demo_screenshot.png)](https://vimeo.com/688389732)

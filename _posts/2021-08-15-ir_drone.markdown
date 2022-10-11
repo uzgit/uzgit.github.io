@@ -9,7 +9,7 @@ image: ir_lava_field.webp # Add image post (optional)
 tags: [whycode] # add tag
 ---
 
-![IR Drone in Flight]({{site.baseurl}}/assets/images/ir_drone_in_flight.jpg)
+![IR Drone in Flight]({{ site.url }}{{ site.baseurl }}/assets/images/ir_drone_in_flight.jpg)
 
 As a summer project with Christopher Hamilton, Baldur Björnsson and I assembled a heavy-lift drone with an infrared camera for geological surveys over the lava fields at the erupting volcano in Fagradalsfjall.
 The drone has a 1.3m span and can carry up to 25kg.
@@ -19,6 +19,6 @@ It is a fairly heavy camera, so we have mounted it on a large gimbal.
 The drone flew multiple test flights and multiple short, survey flights over the lava field, giving output images like at the top of this page.
 Video of the BBC Click program that documented the survey and video of the IR footage itself can be found below.
 
-[![Demo Screenshot]({{site.baseurl}}/assets/images/ir_drone_video_screenshot.png)](https://youtu.be/6SIgFPhhRPE?t=1189)
+[![Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/ir_drone_video_screenshot.png)](https://youtu.be/6SIgFPhhRPE?t=1189)
 
-[![Demo Screenshot]({{site.baseurl}}/assets/images/ir_video_screenshot.png)](https://vimeo.com/580302507)
+[![Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/ir_video_screenshot.png)](https://vimeo.com/580302507)
