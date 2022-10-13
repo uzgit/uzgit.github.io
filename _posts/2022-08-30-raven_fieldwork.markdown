@@ -3,8 +3,11 @@ layout: post
 title: RAVEN, "Summer" 2022
 date: 2022-08-30 00:00:001 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+gallery_url: https://photos.app.goo.gl/bhWukds8QVodFU24
 thumbnail: drone_flyby.webp # Add image post (optional)
 image: drone_flyby.webp # Add image post (optional)
 ---
+
+{% google_photos page.gallery_url 800 %}
 
 Placeholder for RAVEN fieldwork post.
