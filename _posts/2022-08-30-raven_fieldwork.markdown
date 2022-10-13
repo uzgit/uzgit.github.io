@@ -8,6 +8,4 @@ thumbnail: drone_flyby.webp # Add image post (optional)
 image: drone_flyby.webp # Add image post (optional)
 ---
 
-{% google_photos page.gallery_url 800 %}
-
 Placeholder for RAVEN fieldwork post.
