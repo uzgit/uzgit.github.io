@@ -8,6 +8,8 @@ image: apriltag_landing_demo.webp # Add image post (optional)
 tags: [whycode] # add tag
 ---
 
+## Indoor Testing
+
 In Iceland, it is pretty hard to fly drones outside for about 6 months of the year, when you are trying to do experiments in autonomous flight.
 The sea winds, freezing temperatures, and unpredictable rain and snow always get in the way.
 This is all not to mention that Reykjavik University is right next to Reykjavik Airport, so it is illegal according to Icelandic law to fly any drone with a mass of 2kg or more, and illegal to fly above the height of the tallest surrounding buildings.
@@ -24,9 +26,9 @@ Unfortunately, DJI forces you to use its normal paradigm of app-based interactio
 I suppose this can be useful because it provides a touchscreen and such, but ultimately it tends to get in the way for a number of reasons which I will explain below.
 We have made [an app](https://github.com/uzgit/Android-VideoStreamDecodingSample) that is based on some of the [video decoding sample](https://github.com/DJI-Mobile-SDK-Tutorials/Android-VideoStreamDecodingSample) and the [virtual sticks sample](https://github.com/dji-sdk/Mobile-SDK-Android/blob/master/Sample%20Code/app/src/main/java/com/dji/sdk/sample/demo/flightcontroller/VirtualStickView.java) that DJI provides.
 The video decoding sample provides the means for sending individual frames to an external board (Raspberry Pi 4) for processing, and the virtual sticks example gives a way of programmatically controlling the drone.
-The (necessarily horrible) architecture of the system is shown below.
+## The (necessarily horrible) architecture of the system is shown below.
 
-![Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/spark_architecture.drawio.png)
+![Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/spark_architecture.drawio.webp)
 
 The DJI Spark and its controller talk to each other with no outside intervention from us.
 Using an Ethernet over USB connection, our Android app decodes frames from the video stream, compresses them, and sends them the companion board (Raspberry Pi 4) over a Wifi connection from the Raspberry Pi 4. (The Raspberry Pi is set up as a WiFi access point.)
@@ -58,12 +60,14 @@ The system achieved a video processing rate of only about 6-7 Hz, bottlenecked b
 It is subject to orientation ambiguity, though less than expected.
 This can be seen in the "flickering" of the control inputs on the app, and sometimes in corresponding, quick, erratic behavior of the drone. 
 
-[![April Tag 24h10 Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/demo_screenshot.png)](https://vimeo.com/664863992)
+<!--iframe src="https://player.vimeo.com/video/664863992?h=6f4850430c" width="640" height="206" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/664863992">Spark Autonomous Landing Demo with April Tag 24h10</a> from <a href="https://vimeo.com/j0shua">Joshua Springer</a> on <a href="https://vimeo.com">Vimeo</a>.</p-->
+<iframe src="https://player.vimeo.com/video/664863992?h=6f4850430c" width="900" height="500" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-Below is a similar demo using April Tag 48h12:
+## Below is a similar demo using April Tag 48h12:
 
-[![April Tag 48h12 Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/apriltag_48h12_demo_screenshot.png)](https://vimeo.com/644394605)
+<iframe src="https://player.vimeo.com/video/644394605?h=097e6f1235" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-Finally, a demo using WhyCode:
+## Finally, a demo using WhyCode:
 
-[![WhyCode Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/whycode_demo_screenshot.png)](https://vimeo.com/688389732)
+<iframe src="https://player.vimeo.com/video/688389732?h=0b050ff61c" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

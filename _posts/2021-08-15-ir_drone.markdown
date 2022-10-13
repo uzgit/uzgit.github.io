@@ -9,7 +9,7 @@ image: ir_lava_field.webp # Add image post (optional)
 tags: [whycode] # add tag
 ---
 
-![IR Drone in Flight]({{ site.url }}{{ site.baseurl }}/assets/images/ir_drone_in_flight.jpg)
+![IR Drone in Flight]({{ site.url }}{{ site.baseurl }}/assets/images/ir_drone_in_flight.webp)
 
 As a summer project with Christopher Hamilton, Baldur Björnsson and I assembled a heavy-lift drone with an infrared camera for geological surveys over the lava fields at the erupting volcano in Fagradalsfjall.
 The drone has a 1.3m span and can carry up to 25kg.
@@ -17,8 +17,11 @@ The drone has a 1.3m span and can carry up to 25kg.
 The FLIR A65 outputs raw IR video that can be used to determine the temperature of the lava it is looking at.
 It is a fairly heavy camera, so we have mounted it on a large gimbal.
 The drone flew multiple test flights and multiple short, survey flights over the lava field, giving output images like at the top of this page.
-Video of the BBC Click program that documented the survey and video of the IR footage itself can be found below.
 
-[![Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/ir_drone_video_screenshot.png)](https://youtu.be/6SIgFPhhRPE?t=1189)
+## Video of the BBC Click program that documented the survey:
+<iframe width="640" height="330" src="https://www.youtube.com/embed/6SIgFPhhRPE?start=1189" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[![Demo Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/ir_video_screenshot.png)](https://vimeo.com/580302507)
+
+## Video of the IR footage itself:
+<iframe src="https://player.vimeo.com/video/580302507?h=3a72a51175" width="640" height="512" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!--p><a href="https://vimeo.com/580302507">Lava Field (IR)</a> from <a href="https://vimeo.com/j0shua">Joshua Springer</a> on <a href="https://vimeo.com">Vimeo</a>.</p-->

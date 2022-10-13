@@ -3,8 +3,8 @@ layout: post
 title: April Tag Modifications
 date: 2021-10-20 00:00:001 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-thumbnail: apriltag_modifications.png # Add image post (optional)
-image: apriltag_modifications.png # Add image post (optional)
+thumbnail: apriltag_modifications.webp # Add image post (optional)
+image: apriltag_modifications.webp # Add image post (optional)
 tags: [whycode] # add tag
 ---
 
@@ -23,4 +23,4 @@ Our initial experiments show a runtime detection rate of about 15 Hz.
 However, it does not actually result in a speedup on a Raspberry Pi 4, probably because it has enough RAM and processor power to handle the 48h12 system.
 The figure below shows the speed comparisons of the April Tag systems (plus some other systems that I will address in another post/publication).
 
-![Speed Plot]({{ site.url }}{{ site.baseurl }}/assets/images/violin_plot_speed_five_member.png)
+![Speed Plot]({{ site.url }}{{ site.baseurl }}/assets/images/violin_plot_speed_five_member.webp)

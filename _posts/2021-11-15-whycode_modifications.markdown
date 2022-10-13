@@ -3,8 +3,8 @@ layout: post
 title: WhyCode Modifications
 date: 2021-10-21 00:00:01 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-thumbnail: whycode_modifications.png # Add image post (optional)
-image: whycode_modifications.png # Add image post (optional)
+thumbnail: whycode_modifications.webp # Add image post (optional)
+image: whycode_modifications.webp # Add image post (optional)
 tags: [whycode] # add tag
 ---
 
@@ -13,7 +13,7 @@ The original paper describing its structure and detection algorithm is [here](ht
 Its detection algorithm works by searching images for white regions that are surrounded by black regions, flood filling them both and checking for concentricity, circularity, and region pixel size.
 The markers contain an ID that is explained below.
 
-![WhyCode Structure]({{ site.url }}{{ site.baseurl }}/assets/images/whycode_manchester_explanation.png)
+![WhyCode Structure]({{ site.url }}{{ site.baseurl }}/assets/images/whycode_manchester_explanation.webp)
 
 WhyCode is pretty good at detecting the *position* of a given marker, as long as you know the number of ID bits and the diameter of the marker before detection.
 However it is not very good at detecting the *orientation*.
@@ -54,4 +54,4 @@ The "discontinuity rate" for each system is the amount of times that the orienta
 The ellipse sampling method minimizes this with statistical significance, while the multi method shows a slight, but statistically insignificant decrease in performance from the original method.
 The April Tag systems shown here will be explained in another post.
 
-![Discontinuity Comparision]({{ site.url }}{{ site.baseurl }}/assets/images/discontinuities.png)
+![Discontinuity Comparision]({{ site.url }}{{ site.baseurl }}/assets/images/discontinuities.webp)
