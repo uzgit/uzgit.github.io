@@ -9,4 +9,10 @@ image: session_1_crack.webp # Add image post (optional)
 tags: [whycode] # add tag
 ---
 
-Placeholder for depth drone post.
+## An example of the data collected by the drone:
+
+<div style="padding:59.17% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/761973600?h=961d82b953&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="session_1_crack (1).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+## Example of the drone in flight:
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/761979641?h=78a996cb23&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Data Collection Session at Bollahraun"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
