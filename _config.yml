@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-title: Autonomous Drone Landing # your site title
+title: Joshua Springer # your site title
 author: Joshua Springer # You :P
 description: > # Meta description of Homepage
   Write an awesome description for your new site here. You can edit this
@@ -26,7 +26,7 @@ navigation: # Navigation links
   - {name: 'Contact', link: '/contact'}
 
 tagline: >
-  (and other drone work in Iceland)
+  PhD Candidate - Autonomous Multirotor Drone Landing
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
