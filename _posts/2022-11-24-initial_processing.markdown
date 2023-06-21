@@ -4,8 +4,8 @@ title: Initial Depth Data Processing
 #date: 2021-11-15 00:00:01 +0300
 date: 2022-11-15 00:00:001 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-thumbnail: initial_processing_thumbnail.webp # Add image post (optional)
-image: initial_processing_thumbnail.webp # Add image post (optional)
+thumbnail: initial_depth_processing.webp # Add image post (optional)
+image: initial_depth_processing.webp # Add image post (optional)
 tags: [whycode] # add tag
 ---
 
